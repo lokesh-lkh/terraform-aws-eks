@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket         = "remote-state-lokesh-dev"
-    key            = "terraform-eks-rds"
+    key            = "terraform-eks-eks"
     region         = "us-east-1"
     encrypt        = true
     use_lockfile   = true
